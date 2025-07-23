@@ -1,0 +1,15 @@
+@charset "UTF8";
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+</style>;
+:root{
+    --fonte-destaque: 'passion one bold',sans-serif ;
+}
+header{
+    background-color: black;
+    color: white;
+    
+}
+header>h1{
+    font-family: 'passion one bold',sans-serif;
+}
