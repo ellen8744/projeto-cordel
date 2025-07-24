@@ -1,15 +1,61 @@
 @charset "UTF8";
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-</style>;
-:root{
-    --fonte-destaque: 'passion one bold',sans-serif ;
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
+html,body{
+    min-height: 100vh;
+    background-color:white;
+}
+
 header{
     background-color: black;
     color: white;
+    text-align: center;
     
 }
 header>h1{
-    font-family: 'passion one bold',sans-serif;
+    padding-top: 50px;
+    font-variant: small-caps;
+    
+}
+header>p{
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.normal{
+    background-color: rgb(53, 52, 52);
+    color: white;
+}
+section.imagem{
+    background-color:rgb(53, 52, 52);
+    color:white;
+}
+section.imagem>p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+section.normal>p{
+    width: 400px;
+    background-color:rgba(0, 0, 0, 0.233) ;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
